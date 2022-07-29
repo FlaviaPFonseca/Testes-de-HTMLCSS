@@ -1,0 +1,31 @@
+body{
+  margin: 50px;
+}
+
+div{
+ display: inline-block; 
+ margin: 50px;
+ width: 0;
+  height: 0;
+}
+#triangulo-cima{ /* topo para  cima- quanto maior os pixels maior o triangulo, border botton topo para cima*/
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid green;
+}
+#triangulo-baixo{ /* topo para baixo - border top */
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid blueviolet;
+}
+#triangulo-direita{ /* topo para  cima- quanto maior os pixels maior o triangulo, border left topo para direita*/
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 50px solid rgb(128, 0, 55);
+}
+
+#triangulo-esquerda { /* topo para  esquerda- quanto maior os pixels maior o triangulo, border right topo para esquerda*/
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid rgb(197, 195, 27);
+  }
