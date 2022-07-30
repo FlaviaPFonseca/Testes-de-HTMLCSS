@@ -1,0 +1,9 @@
+body{
+  margin: 0;
+}
+#container {
+  width:100vw ;/* ocupa 100% da largura */
+  height: 100vh;/* ocupa 100% da altura */
+  background:url('7474120.jpg');
+  background-size: cover;
+}
