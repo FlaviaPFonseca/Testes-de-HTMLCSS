@@ -1,0 +1,12 @@
+/* colcar lado a lado simples*/
+div{
+  width: 100px;
+  height:100px ;
+  display: inline-block;
+}
+#container-a{
+background-color: aqua;
+}
+#container-b{
+  background-color:blue
+}
