@@ -1,0 +1,14 @@
+input [type="file"] {
+  display: none;
+  
+}
+label{
+  background-color:#333;
+  color: #fff;
+  width: 200px;
+ padding: 20px 10px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
